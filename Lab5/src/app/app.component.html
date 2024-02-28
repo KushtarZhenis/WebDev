@@ -1,0 +1,4 @@
+<div *ngFor="let category of categories" (click)="selectCategory(category)">
+  <a href="#"> {{ category.name }} </a>
+</div>
+<app-product-list *ngIf="selectedCategory" [category]="selectedCategory"></app-product-list>

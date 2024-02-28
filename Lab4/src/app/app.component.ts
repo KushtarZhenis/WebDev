@@ -28,36 +28,6 @@ export class AppComponent {
     this.products= [
       {
         image:
-          "https://resources.cdn-kaspi.kz/img/m/p/h08/hde/80282292781086.jpg?format=gallery-medium",
-        name: "Электрочайник BEREKE BR-810 серый",
-        description:
-          "фильтр от накипи: Нет\n" +
-          "тип: электрочайник\n" +
-          "объем: 2.0 л\n" +
-          "мощность: 1500.0 Вт\n" +
-          "материал корпуса: нержавеющая сталь\n" +
-          "цвет: серый",
-        rating: 4.5,
-        storeLink:
-          "https://kaspi.kz/shop/p/elektrochainik-bereke-br-810-seryi-109981423/?c=750000000",
-        imageGallery: [],
-      },
-      {
-        image:
-          "https://resources.cdn-kaspi.kz/img/m/p/h47/ha1/64094073815070.jpg?format=gallery-medium",
-        name: "Кухонные весы Generic SF-400",
-        description:
-          "тип: электронные\n" +
-          "предел взвешивания: 10.0 кг\n" +
-          "точность измерения: 1.0 г\n" +
-          "счетчик калорий: Да\n" +
-          "цвет: белый\n",
-        rating: 4.5,
-        storeLink: "https://kaspi.kz/shop/p/generic-sf-400-102531445/?c=750000000",
-        imageGallery: [],
-      },
-      {
-        image:
           "https://resources.cdn-kaspi.kz/img/m/p/h12/hc8/84594232688670.jpg?format=gallery-medium",
         name: "Наушники Apple AirPods 2nd generation белый",
         description:
@@ -111,6 +81,22 @@ export class AppComponent {
         imageGallery: [],
       },
       {
+        image:
+          "https://resources.cdn-kaspi.kz/img/m/p/h08/hde/80282292781086.jpg?format=gallery-medium",
+        name: "Электрочайник BEREKE BR-810 серый",
+        description:
+          "фильтр от накипи: Нет\n" +
+          "тип: электрочайник\n" +
+          "объем: 2.0 л\n" +
+          "мощность: 1500.0 Вт\n" +
+          "материал корпуса: нержавеющая сталь\n" +
+          "цвет: серый",
+        rating: 4.5,
+        storeLink:
+          "https://kaspi.kz/shop/p/elektrochainik-bereke-br-810-seryi-109981423/?c=750000000",
+        imageGallery: [],
+      },
+      {
         image: "https://resources.cdn-kaspi.kz/img/m/p/h57/h11/80130097381406.jpg?format=gallery-medium",
         name: "Наушники Marshall Major IV коричневый",
         description: "тип: гарнитура\n" +
@@ -122,6 +108,20 @@ export class AppComponent {
           "микрофон: Да",
         rating: 5,
         storeLink: "https://kaspi.kz/shop/p/marshall-major-iv-korichnevyi-104024603/?c=750000000",
+        imageGallery: [],
+      },
+      {
+        image:
+          "https://resources.cdn-kaspi.kz/img/m/p/h47/ha1/64094073815070.jpg?format=gallery-medium",
+        name: "Кухонные весы Generic SF-400",
+        description:
+          "тип: электронные\n" +
+          "предел взвешивания: 10.0 кг\n" +
+          "точность измерения: 1.0 г\n" +
+          "счетчик калорий: Да\n" +
+          "цвет: белый\n",
+        rating: 4.5,
+        storeLink: "https://kaspi.kz/shop/p/generic-sf-400-102531445/?c=750000000",
         imageGallery: [],
       },
       {
