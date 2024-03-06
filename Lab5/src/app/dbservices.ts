@@ -67,9 +67,70 @@ export class DBService {
           "likes" : 87
         }
       ]
+    },    {
+      "id": 1,
+      "name": "Sport",
+      "products": [
+        {
+          "id": 301,
+          "name": "Bicycle",
+          "likes" : 34
+        },
+        {
+          "id": 302,
+          "name": "Pool",
+          "likes" : 23
+        },
+        {
+          "id": 303,
+          "name": "Helmet",
+          "likes" : 45
+        },
+        {
+          "id": 304,
+          "name": "Suitcase",
+          "likes" : 12
+        },
+        {
+          "id": 305,
+          "name": "Shirt",
+          "likes" : 76
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Cooking",
+      "products": [
+        {
+          "id": 401,
+          "name": "Pot",
+          "likes" : 452
+        },
+        {
+          "id": 402,
+          "name": "Oven",
+          "likes" : 128
+        },
+        {
+          "id": 403,
+          "name": "Gloves",
+          "likes" : 2345
+        },
+        {
+          "id": 404,
+          "name": "Bowl",
+          "likes" : 35
+        },
+        {
+          "id": 405,
+          "name": "Stove",
+          "likes" : 87
+        }
+      ]
     }
   ]
-  
+
   removeProduct(productId: number) {
     this.categories.forEach(category => {
       const index = category.products.findIndex(product => product.id === productId);
