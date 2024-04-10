@@ -35,7 +35,7 @@
 #     print(i ** 2)
 
 # 6
-# def is_leap(year):
+# def isLeap(year):
 #     if year % 4 == 0:
 #         if year % 100 == 0:
 #             if year % 400 == 0:
@@ -48,7 +48,7 @@
 #         return False
 
 # year = int(input())
-# print(is_leap(year))
+# print(isLeap(year))
 
 # 7
 # n = int(input())
@@ -60,26 +60,33 @@
 # a = int(input())
 # b = int(input())
 # c = int(input())
-# target_sum = int(input())
+# sum = int(input())
+# coordinates = []
 
-# coordinates = [(x, y, z) for x in range(a + 1) for y in range(b + 1) for z in range(c + 1) if x + y + z != target_sum]
+# for x in range(a + 1):
+#     for y in range(b + 1):
+#         for z in range(c + 1):
+#             if x + y + z != sum:
+#                 coordinates.append((x, y, z))
+
 # print(coordinates)
 
 # 9
-# n = int(input())
+# n = int(input("Enter a number: "))
 
-# scores = list(map(int, input().split()))
-# unique_scores = list(set(scores))
-# unique_scores.sort(reverse=True)
+# scores = list(map(int, input(f"Enter {n} numbers: ").split()))[:n]
+# print(f"Numbers you entered: {scores}")
+# uniqueScores = list(set(scores))
+# uniqueScores.sort(reverse=True)
 
-# print(unique_scores[1])
+# print(f"Second maxinum is: {uniqueScores[1]}")
 
 # 10
 
 list = []
-N = int(input())
+n = int(input())
 
-for _ in range(N):
+for _ in range(n):
     command = input().split()
 
     if command[0] == 'insert':
