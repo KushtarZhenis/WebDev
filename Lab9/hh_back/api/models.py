@@ -20,8 +20,8 @@ class Company(models.Model):
         }
 
     class Meta:
-        verbose_name = "Category"
-        verbose_name_plural = "Categories"
+        verbose_name = "Company"
+        verbose_name_plural = "Companies"
 
 
 class Vacancy(models.Model):
